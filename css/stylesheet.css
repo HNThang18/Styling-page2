@@ -9,6 +9,12 @@ header {
 
 nav {
   background-color: #fdfdc4;
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
 }
 
 main {
@@ -20,10 +26,10 @@ footer {
   background-color: #fcfde9;
 }
 
-li {
+/*li {
   display: inline-block;
   width: 150px;
-}
+}*/
 
 nav ul {
   list-style-type: none;
@@ -40,4 +46,28 @@ h1 {
 
 p {
   line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid {
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
